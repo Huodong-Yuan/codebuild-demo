@@ -116,7 +116,7 @@ Resources:
             - NodeInstanceProfile
             - Arn
         ImageId: ami-0fb3fa4b0f47527d4
-        InstanceType: t3.micro
+        InstanceType: t3.nano
         MetadataOptions:
           HttpPutResponseHopLimit: 2
           HttpTokens: optional
