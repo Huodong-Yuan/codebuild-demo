@@ -17,6 +17,7 @@ phases:
 artifacts:
   files:
     - java-example/target/messageUtil-1.0.jar
+    - cloud-formation/*
 cache:
   paths:
     - '/root/.m2/**/*'
