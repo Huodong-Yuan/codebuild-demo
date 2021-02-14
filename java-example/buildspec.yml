@@ -10,13 +10,13 @@ phases:
   build:
     commands:
       - echo Build started on `date`
-      - mvn install
+      #- mvn install
   post_build:
     commands:
       - echo Build completed on `date`
 artifacts:
   files:
-    - java-example/target/messageUtil-1.0.jar
+    #- java-example/target/messageUtil-1.0.jar
     - cloud-formation/*
 cache:
   paths:
